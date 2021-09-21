@@ -1,0 +1,26 @@
+{
+  "name": "sales-order-entry",
+  "version": "0.0.0",
+  "description": "DMSi Agility Application",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "wedgekit start",
+    "build": "wedgekit build",
+    "test": "ava"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "styled-components": "4.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "16.14.0",
+    "@types/react-dom": "16.9.13",
+    "@wedgekit/scripts": "0.4.0",
+    "ava": "3.15.0",
+    "ts-node": "9.1.1",
+    "vite": "2.4.1"
+  }
+}
